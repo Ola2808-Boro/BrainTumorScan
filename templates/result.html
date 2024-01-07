@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRAINSCANTUMOR</title>
+    <link rel="stylesheet" href="../static/index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>BrainTumorScan</h1>
+        </header>
+        <main>
+            <section>
+                <p class="text">{{text}}</p>
+                {% if case=='classification' %}
+                    <div class="result-container">
+                        <img src="data:image/jpeg;base64,{{ image_base64 }}" alt="Uploaded Image" style="max-width: 500px;">
+                        <p class="result">Prediction: {{ prediction }}</p>
+                    </div>
+                    <a href={{url_for('index')}} class="back-button">
+                        <span class="arrow">&larr;</span>
+                        Return
+                      </a>
+                {%else%}
+                    <div class="result-container" style="display:flex;flex-direction: row;justify-content: space-evenly;">
+                        <div style="display:flex;flex-direction: column; align-items: center;">
+                            <img src="data:image/jpeg;base64,{{ image_base64 }}" alt="Uploaded Image" style="max-width: 500px;">
+                            <p class="result">Original image</p>
+                        </div>
+                        <div style="display:flex;flex-direction: column; align-items: center;">
+                            <img src="data:image/jpeg;base64,{{ prediction }}" alt="Uploaded Image" style="max-width: 500px;">
+                            <p class="result">Generated mask</p>
+                        </div>
+                    </div>
+                        <a href={{url_for('index')}} class="back-button">
+                            <span class="arrow">&larr;</span>
+                            Return
+                        </a>
+                {% endif %}
+            </section>
+</body>
+</html>

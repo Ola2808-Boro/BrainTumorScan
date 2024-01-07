@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:100vw;
+    height:100vh;
+    background-image: url('images/background-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+
+    header{
+        width: 100%;
+        background-color: #175fa3;
+        background-color: #f2f2f2;
+        /* background-color: #70B9E0; */
+        height:15%;
+        display: flex;
+        align-items: center;
+        padding:10px;
+        h1{
+            font-family: Arial, sans-serif;
+            font-size: 60px;
+            color: #04328e; /* Kolor tekstu */
+            text-transform: uppercase; /* Zamiana na wielkie litery */
+            letter-spacing: 2px; /* Odstępy między literami */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Cień tekstu */
+        }
+
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+          }
+          
+          /* Styl dla przycisków */
+          .action-button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #3366cc; /* Kolor tła przycisków */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Efekt przejścia koloru tła */
+          }
+          
+          /* Efekt przy najechaniu na przycisk */
+          .action-button:hover {
+            background-color: #254785; /* Zmiana koloru tła po najechaniu */
+          }
+    }
+    main{
+        width:100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        height: 80%;
+        
+        .back-button {
+            display: inline-block;
+            max-width:150px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #3366cc; 
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+          }
+
+          .arrow {
+            margin-right: 5px;
+          }
+
+          .back-button:hover {
+            background-color: #254785; 
+          }
+        
+        section{
+            display: flex;
+            flex-direction: column;
+            margin:50px 50px;
+            background-color: #f2f2f2;
+            width:60%;
+            height:80%;
+            padding:20px;
+
+            .text{
+                font-size: 30px;
+                color: #3366cc; /* Dopasowany kolor tekstu */
+                font-weight: bold;
+                text-transform: uppercase; 
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            }
+            .result-container{
+                padding: 20px 0px;
+            }
+            .result{
+                padding-top: 10px;
+                font-size: 20px;
+                color: #3366cc; /* Dopasowany kolor tekstu */
+                font-weight: bold;
+                text-transform: uppercase; 
+                text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4);
+            }
+            .btn{
+                padding: 10px 20px;
+                font-size: 20px;
+                color: #fff;
+                background-color: #3366cc; /* Dopasowany kolor tła przycisku */
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+            }
+        }
+
+    }
+}
+
+h1{
+    color: red;
+}
