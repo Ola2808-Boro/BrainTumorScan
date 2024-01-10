@@ -31,8 +31,8 @@ The results in the tables are given for the most recent epochs.
 
 |Epochs| Train loss  | Train accuracy | Validation loss | Validation accuracy|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  |Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| 5  |0.7428  | 0.8491  | 0.7388  | 0.8291  |
+| 54  |0.0993 | 0.9869  |0.1105  |0.9802  |
 
 
 
@@ -40,8 +40,8 @@ The results in the tables are given for the most recent epochs.
 
 |Epochs| Train loss  | Train accuracy | Validation loss | Validation accuracy|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  |Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| 5  |0.6404  | 0.7941  | 1.3883  | 0.6056  |
+| 61  |0.2053  | 0.9510  |0.2515  |0.9329  |
 
 
 
@@ -49,8 +49,8 @@ The results in the tables are given for the most recent epochs.
 
 |Epochs| Train loss  | Train accuracy | Validation loss | Validation accuracy|
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| Content Cell  |Content Cell  | Content Cell  | Content Cell  | Content Cell  |
-| Content Cell  |Content Cell  | Content Cell  |Content Cell  |Content Cell  |
+| 5  |0.2620  | 0.9278  | 0.3960  | 0.8757  |
+| 34  |0.0116  | 0.9987  |0.0378  |0.9931  |
 
 
 
